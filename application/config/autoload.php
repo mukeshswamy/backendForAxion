@@ -54,11 +54,11 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'email', 'session');
 |
 | You can also supply an alternative library name to be assigned
-| in the controller:
+| in the controller:$this->load->library('form_validation');
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database');
+$autoload['libraries'] = array('database', 'form_validation');
 
 /*
 | -------------------------------------------------------------------
